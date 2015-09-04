@@ -12,7 +12,7 @@
  * @since     3.0.0
  * @license   http://www.opensource.org/licenses/mit-license.php MIT License
  */
-namespace BEdita\Manage\Shell\Shell;
+namespace BEdita\Core\Shell\Shell;
 
 use Cake\Console\ConsoleOptionParser;
 use Cake\Console\Shell;

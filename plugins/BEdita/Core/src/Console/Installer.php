@@ -12,7 +12,7 @@
  * @since     3.0.0
  * @license   http://www.opensource.org/licenses/mit-license.php MIT License
  */
-namespace BEdita\Manage\Console;
+namespace BEdita\Core\Console;
 
 use Composer\Script\Event;
 use Exception;
@@ -35,7 +35,7 @@ class Installer
     {
         $io = $event->getIO();
 
-        $rootDir = dirname(dirname(__DIR__));
+        $rootDir = dirname(dirname(dirname(dirname(dirname(__DIR__)))));
 
         static::createAppConfig($rootDir, $io);
         static::createWritableDirectories($rootDir, $io);
