@@ -1,4 +1,26 @@
+# User specific & automatically generated files #
+#################################################
 /vendor/*
 /config/app.php
 /tmp/*
 /logs/*
+/tags
+/composer.lock
+/phpunit.xml
+
+# IDE and editor specific files #
+#################################
+/nbproject
+.idea
+.project
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
